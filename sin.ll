@@ -97,7 +97,7 @@ ReturnSin:
 }
 
 define i32 @main() #0 {
-    %result = call double @sin(double 1.0, i8 10)
+    %result = call double @sin(double 1.0, i8 17)
     call i32 (ptr, ...) @printf(ptr noundef @.printFloat, double noundef %result)
     ret i32 0
 }
